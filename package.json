@@ -1,0 +1,18 @@
+{
+  "name": "dunggul-tycoon",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build && ait build",
+    "dev:onestore": "vite --host --mode onestore",
+    "build:onestore": "vite build --mode onestore"
+  },
+  "dependencies": {
+    "@apps-in-toss/web-framework": "latest"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
